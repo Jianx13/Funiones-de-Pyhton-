@@ -2,7 +2,7 @@
 
 Este repositorio contiene una referencia de las funciones incorporadas de Python, junto con ejemplos prácticos de uso.
 
----
+
 
 ## 📋 Lista de Funciones Incorporadas
 
@@ -18,7 +18,7 @@ Este repositorio contiene una referencia de las funciones incorporadas de Python
 | `min(iterable)` | Retorna el elemento más pequeño de un iterable o de varios argumentos. |
 | `max(iterable)` | Retorna el elemento más grande de un iterable o de varios argumentos. |
 
----
+
 
 ### 🔤 Funciones de Tipo y Conversión
 
@@ -41,7 +41,7 @@ Este repositorio contiene una referencia de las funciones incorporadas de Python
 | `oct(x)` | Convierte un entero a su representación octal en string. |
 | `bin(x)` | Convierte un entero a su representación binaria en string. |
 
----
+
 
 ### 🧠 Funciones de Introspección y Objetos
 
@@ -61,7 +61,7 @@ Este repositorio contiene una referencia de las funciones incorporadas de Python
 | `hash(object)` | Retorna el valor hash del objeto. |
 | `repr(object)` | Retorna una representación en string del objeto (para desarrolladores). |
 
----
+
 
 ### 🔁 Funciones de Iteración y Secuencias
 
@@ -81,7 +81,7 @@ Este repositorio contiene una referencia de las funciones incorporadas de Python
 | `all(iterable)` | Retorna `True` si todos los elementos del iterable son verdaderos. |
 | `slice(start, stop, step)` | Crea un objeto `slice` para indexar secuencias. |
 
----
+
 
 ### 📂 Funciones de Entrada/Salida
 
@@ -92,7 +92,7 @@ Este repositorio contiene una referencia de las funciones incorporadas de Python
 | `open(file, mode)` | Abre un archivo y retorna un objeto de archivo. |
 | `format(value, format_spec)` | Formatea un valor según una especificación dada. |
 
----
+
 
 ### 🏗️ Funciones de Construcción de Clases y Funciones
 
@@ -104,7 +104,7 @@ Este repositorio contiene una referencia de las funciones incorporadas de Python
 | `staticmethod(function)` | Convierte una función en método estático. |
 | `classmethod(function)` | Convierte una función en método de clase. |
 
----
+
 
 ### 🛠️ Funciones de Evaluación y Ejecución
 
@@ -116,7 +116,7 @@ Este repositorio contiene una referencia de las funciones incorporadas de Python
 | `globals()` | Retorna el diccionario de la tabla de símbolos global actual. |
 | `locals()` | Retorna el diccionario de la tabla de símbolos local actual. |
 
----
+
 
 ### 🧩 Otras Funciones Útiles
 
@@ -128,37 +128,4 @@ Este repositorio contiene una referencia de las funciones incorporadas de Python
 | `breakpoint()` | Llama al depurador en el punto donde se invoca (Python 3.7+). |
 | `__import__(name)` | Importa un módulo dinámicamente (uso avanzado). |
 
----
 
-## 📁 Estructura del Repositorio
-
-```
-📦 python-builtins/
-├── 📄 README.md                  ← Este archivo
-└── 📁 ejemplos/
-    ├── 📄 funciones_ejemplo.py   ← Ejemplos de uso de funciones incorporadas
-    └── 📄 llamar_ejemplo.py      ← Importa y llama funciones del otro archivo
-```
-
----
-
-## 🚀 Cómo usar los ejemplos
-
-```bash
-# Ejecutar el archivo de ejemplos directamente
-python ejemplos/funciones_ejemplo.py
-
-# Ejecutar el archivo que llama al otro
-python ejemplos/llamar_ejemplo.py
-```
-
----
-
-## 📚 Recursos adicionales
-
-- [Documentación oficial de Python - Built-in Functions](https://docs.python.org/3/library/functions.html)
-- [Python Tutorial en Español](https://docs.python.org/es/3/tutorial/)
-
----
-
-> 💡 **Tip:** Puedes explorar todas las funciones incorporadas en Python ejecutando `dir(__builtins__)` en tu intérprete.
